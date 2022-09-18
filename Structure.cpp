@@ -5,6 +5,9 @@ using namespace std;
 struct Student{
    int roll;
    string name;
+   void callme(){
+      cout << "called";
+   }
 }s1;
 
 struct TY02{
@@ -13,6 +16,7 @@ struct TY02{
 };
 
 int main(){
+   s1.callme();
    s1.roll = 20;
    s1.name = "Kunal Pandharkar";
    Student s2;
