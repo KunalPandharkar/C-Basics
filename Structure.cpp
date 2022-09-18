@@ -11,11 +11,14 @@ struct Student{
 }s1;
 
 struct TY02{
-    Student sm;
     string teacher;
+    Student sm;
+   
 };
 
 int main(){
+   TY02 rt {"kunal",2120,"samruddhi"}; // uniform initilization
+   cout << rt.teacher << endl << rt.sm.roll << endl << rt.sm.name << endl;
    s1.callme();
    s1.roll = 20;
    s1.name = "Kunal Pandharkar";
@@ -65,3 +68,5 @@ int main(){
    
    
 }
+
+
