@@ -14,7 +14,7 @@ public:
     // move constructor
     Student(const Student &&obj) : roll(obj.roll), grade(obj.grade), name(obj.name) {}
 
-    // move asisgnment
+    // move asisgnment-
     void operator=(Student &&obj)
     {
         delete name;
