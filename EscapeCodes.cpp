@@ -6,5 +6,9 @@ int main(){
 
 	cout << "left \t right" << endl;
 
-	cout << "\v vertical tab";
+	cout << "\v vertical tab" << endl;
+
+	string str = R"(string)";
+
+	cout << str;
 }

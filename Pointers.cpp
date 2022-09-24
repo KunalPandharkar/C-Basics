@@ -116,7 +116,17 @@ int main()
     print(start,stop);
 
     
+    int sam = 10;
     
+    int *sp = &sam;
+
+    int **kkp;
+
+    kkp = &sp;
+
+    
+
+    cout << **kkp << " " << sam; 
 
 
 

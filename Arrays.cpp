@@ -10,8 +10,24 @@ void print(int arr[])
     cout << endl;
 }
 
+void print(int arr[][2]){
+     for (int i = 0; i < 2; i++)
+     {
+        for (int j = 0; j < 3; j++)
+        {
+            cout << arr[i][j] << " ";
+        }
+
+        cout << endl;
+        
+     }
+     
+}
+
 int main()
 {
+    int arr[2][2] = {{1,2},{1,3}};
+    print(arr);
     int arraylocal[5] = {1, 2, 3, 4};
     int arr1[]{1, 2, 3, 4, 5};
 
@@ -42,4 +58,13 @@ int main()
             break;
         cout << i << str[i] << endl;
     }
+
+
+    string str1 = "Kunal";
+
+    str1[1] = 'S';
+
+    cout << str1;
+
+
 }
