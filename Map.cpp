@@ -11,6 +11,7 @@ int main()
     mp.emplace("Kunal", 100);
     mp["Kunal"] = 300;
 
+
     map<string, int> mp2(mp.begin(), mp.end());
 
     pair<map<string, int>::iterator, bool> it = mp.insert(make_pair<string, int>("Samruddhi", 200));
